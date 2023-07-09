@@ -12,6 +12,11 @@
     margin-top: 3.5rem;
 }
 
+.home__logo {
+    width: 155px;
+    height: 155px;
+}
+
 .home__name {
     font-size: var(--h1-font-size);
     font-weight: var(--font-bold);
@@ -46,9 +51,14 @@
     margin-top: 1rem;
 }
 
+.home__icon {
+    width: 30px;
+    height: 30px;
+}
+
 figure {
     margin-bottom: 1rem;
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 figure:hover {
@@ -57,6 +67,10 @@ figure:hover {
 
 figure:active {
     transform: scale(0.9);
+}
+
+.home__greet {
+    position: absolute;
 }
 
 .home__link {
