@@ -71,6 +71,7 @@ figure:active {
 
 .home__greet {
     position: absolute;
+    height: 90px;
 }
 
 .home__link {
@@ -91,4 +92,44 @@ figure:active {
 
 .down {
     animation-duration: 2.5s;
+}
+
+@media screen and (max-width: 520px) {
+    .home__logo {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .home__name {
+        font-size: var(--h2-font-size);
+    }
+
+    .home__icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .home__greet {
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .home__logo {
+        width: 75px;
+        height: 75px;
+    }
+    
+    .home__name {
+        font-size: var(--h3-font-size);
+    }
+
+    .home__icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .home__greet {
+        height: 50px;
+    }
 }

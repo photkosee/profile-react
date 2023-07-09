@@ -11,7 +11,7 @@ const Home = () => {
                     <img src="/logo.png" alt="Logo" className="home__logo"/>
                     {
                         greet && (
-                            <img src="/greetings.png" alt="Greetings" className="home__greet" width={150} height={150}/>
+                            <img src="/greetings.png" alt="Greetings" className="home__greet"/>
                         )
                     }
                 </figure>
