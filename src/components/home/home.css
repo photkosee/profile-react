@@ -9,7 +9,7 @@
 .home__first {
     max-width: 500px;
     text-align: center;
-    margin-top: 3.5rem;
+    margin-top: 5rem;
 }
 
 .home__logo {
@@ -26,7 +26,7 @@
 }
 
 .home__letter, .home__down {
-    transition: all .25s ease-in-out;
+    transition: all .15s ease-in-out;
 }
 
 .home__down:hover {
@@ -58,7 +58,7 @@
 
 figure {
     margin-bottom: 1rem;
-    transition: all .2s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 figure:hover {
@@ -75,11 +75,11 @@ figure:active {
 }
 
 .home__link {
-    transition: all .3s ease-in-out;
+    transition: all .15s ease-in-out;
 }
 
 .home__link:hover {
-    transform: scale(1.15);
+    transform: scale(1.2);
 }
 
 .home__link:active {
@@ -91,7 +91,7 @@ figure:active {
 }
 
 .down {
-    animation-duration: 2.5s;
+    animation-duration: 1.5s;
 }
 
 @media screen and (max-width: 520px) {

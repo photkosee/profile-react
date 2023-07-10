@@ -99,7 +99,7 @@ img {
 }
 
 .section {
-  padding-top: 7rem;
+  padding-top: 5rem;
   padding-bottom: 2rem;
 }
 
@@ -134,7 +134,7 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   font-weight: var(--font-bold);
-  transition: all .3s ease-in-out;
+  transition: all .15s ease-in-out;
 }
 
 .btn:hover {
