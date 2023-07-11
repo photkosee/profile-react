@@ -1,0 +1,70 @@
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    padding: 3px;
+}
+
+.image-content {
+    row-gap: 2px;
+    position: relative;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slide-content {
+    margin: 0 40px;
+}
+
+.card {
+    border-radius: 20px;
+    background-color: var(--container-color);
+}
+
+.card-btn {
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    background-color: var(--first-color);
+    border-radius: 7px;
+    margin: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: var(--small-font-size);
+}
+
+.card-btn:hover {
+    transform: scale(1.05);
+}
+
+.card-btn:active {
+    transform: scale(0.95);
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    border-radius:  25px 25px 0 25px;
+}
+
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    background-color: blueviolet;
+}

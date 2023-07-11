@@ -9,12 +9,13 @@
 .home__first {
     max-width: 500px;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .home__logo {
     width: 155px;
     height: 155px;
+    cursor: pointer;
 }
 
 .home__name {
@@ -23,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .home__letter, .home__down {
@@ -87,7 +89,7 @@ figure:active {
 }
 
 .home__down {
-    margin-top: 10rem;
+    margin-top: 7rem;
 }
 
 .down {
