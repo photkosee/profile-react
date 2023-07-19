@@ -1,13 +1,45 @@
 .project {
-    background-color: var(--body-color);
     min-height: 100vh;
     width: 100%;
-    position: relative;
     align-items: center;
-    justify-content: center;
     display: flex;
 }
 
 .project__name {
-    margin-bottom: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
+
+.project__first {
+    width: 100%;
+    background-color: var(--body-color);
+}
+
+.swiper {
+    height: 450px;
+}
+
+@media screen and (min-width: 400px) {
+    .swiper-container {
+      width: 0px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .swiper-container {
+      width: 600px;
+    }
+}
+  
+@media screen and (min-width: 900px) {
+    .swiper-container {
+      width: 900px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .swiper {
+        height: 370px;
+    }
+}
+  
