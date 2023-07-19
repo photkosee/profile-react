@@ -15,13 +15,12 @@
     background-color: var(--body-color);
 }
 
-.swiper {
-    height: 450px;
-}
-
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 0px) {
     .swiper-container {
       width: 0px;
+    }
+    .swiper {
+        height: 390px;
     }
 }
 
@@ -29,17 +28,16 @@
     .swiper-container {
       width: 600px;
     }
+    .swiper {
+        height: 420px;
+    }
 }
   
 @media screen and (min-width: 900px) {
     .swiper-container {
       width: 900px;
     }
-}
-
-@media screen and (max-width: 400px) {
     .swiper {
-        height: 370px;
+        height: 450px;
     }
 }
-  

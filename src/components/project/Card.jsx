@@ -2,7 +2,7 @@ import React from "react";
 import "./card.css";
 
 const Card = (props) => {
-    const{ image, title, sub1, sub2, tools } = props;
+    const{ image, title, sub1, sub2, tools, des } = props;
     return (
         <div className="card-wrapper">
             <div className="card">
@@ -21,7 +21,9 @@ const Card = (props) => {
                             )
                         })}  
                     </p>
-                    <button className="card-btn">More Details</button>
+                    <a href={des} className="card-btn" target="{_blank}">
+                        More Details
+                    </a>
                 </div>
             </div>
         </div>

@@ -25,7 +25,8 @@ const Projects = [
             '/css3_logo.png',
             '/react_logo.png',
             '/github_logo.png'
-        ]
+        ],
+        des: 'https://github.com/PhotKosee/profile-react'
     },
     {
         id: 2,
@@ -36,7 +37,8 @@ const Projects = [
         tools: [
             '/java_logo.png',
             '/gitlab_logo.png'
-        ]
+        ],
+        des: 'https://github.com/PhotKosee/dungeon-mania'
     },
     {
         id: 3,
@@ -48,51 +50,56 @@ const Projects = [
             '/js_logo.png',
             '/ts_logo.png',
             '/gitlab_logo.png',
-        ]
+        ],
+        des: 'https://github.com/PhotKosee/team'
     },
     {
         id: 4,
         title: 'Blackout',
-        image: '/communication_show.png',
+        image: '/blackout_show.png',
         sub1: 'UNSW project',
         sub2: 'Backend Development | OOP',
         tools: [
             '/java_logo.png',
             '/gitlab_logo.png',
-        ]
+        ],
+        des: 'https://github.com/PhotKosee/blackout'
     },
     {
         id: 5,
         title: 'File System',
-        image: '/communication_show.png',
+        image: '/file_show.png',
         sub1: 'UNSW project',
         sub2: 'System calls implementation',
         tools: [
             '/c_logo.png',
             '/gitlab_logo.png',
-        ]
+        ],
+        des: 'https://github.com/PhotKosee/file-management'
     },
     {
         id: 6,
         title: 'Consumer & Producer',
-        image: '/communication_show.png',
+        image: '/pro&con_show.png',
         sub1: 'UNSW project',
         sub2: 'CLI Development',
         tools: [
             '/java_logo.png',
             '/gitlab_logo.png',
-        ]
+        ],
+        des: 'https://github.com/PhotKosee/event'
     },
     {
         id: 7,
         title: 'VM Fault Handling',
-        image: '/communication_show.png',
+        image: '/vm_show.png',
         sub1: 'UNSW project',
         sub2: 'HPT implementation',
         tools: [
             '/c_logo.png',
             '/gitlab_logo.png',
-        ]
+        ],
+        des: 'https://github.com/PhotKosee/vm-fault'
     }
 ];
 
@@ -141,6 +148,7 @@ const Project = () => {
                                     sub1={item.sub1}
                                     sub2={item.sub2}
                                     tools={item.tools}
+                                    des={item.des}
                                 />
                             </SwiperSlide>
                         )
