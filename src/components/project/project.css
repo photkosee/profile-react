@@ -20,11 +20,11 @@
       width: 0px;
     }
     .swiper {
-        height: 390px;
+        height: 400px;
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 400px) {
     .swiper-container {
       width: 600px;
     }
