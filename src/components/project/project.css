@@ -1,19 +1,13 @@
 .project {
-    background-color: white;
+    background-color: var(--body-color);
     min-height: 100vh;
     width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .project__name {
-    margin-bottom: 5rem;
-}
-
-.project__container {
-    justify-content: center;
-}
-
-.project__content {
-    background-color: var(--body-color);
-    padding: 2rem 4rem;
-    border-radius: 1.25rem;
+    margin-bottom: 3rem;
 }

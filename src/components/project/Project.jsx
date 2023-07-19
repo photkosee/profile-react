@@ -4,9 +4,9 @@ import Card from "./Card";
 
 const Project = () => {
     return (
-        <section className="project section" id="project">
-            <h2 className="section__title project__name">Projects</h2>
-            <div className="project__container container grid">
+        <section className="project container" id="project">
+            <div className="project__first">
+                <h2 className="section__title project__name">Projects</h2>
                 <Card />
             </div>
         </section>

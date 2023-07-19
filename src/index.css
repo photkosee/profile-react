@@ -59,6 +59,8 @@ body {
   background-color: var(--body-color);
   line-height: 1.7;
   color: var(--text-color);
+  align-items: center;
+  justify-content: center;
 }
 
 h1, h2, h3 {
