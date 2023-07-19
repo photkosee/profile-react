@@ -8,10 +8,10 @@ const Home = () => {
         <section className="home container" id="home">
             <div className="home__first">
                 <figure onClick={() => setGreet(!greet)}>
-                    <img src="/logo.png" alt="Logo" className="home__logo"/>
+                    <img src="./logo.png" alt="Logo" className="home__logo"/>
                     {
                         greet && (
-                            <img src="/greetings.png" alt="Greetings" className="home__greet"/>
+                            <img src="./greetings.png" alt="Greetings" className="home__greet"/>
                         )
                     }
                 </figure>
@@ -41,16 +41,16 @@ const Home = () => {
 
                 <div className="home__second">
                     <a href="https://www.linkedin.com/in/phot-kosee/" className="home__link" target="{_blank}">
-                        <img src="/linkedin_logo.png" alt="LinkedIn" className="home__icon"/>
+                        <img src="./linkedin_logo.png" alt="LinkedIn" className="home__icon"/>
                     </a>
                     <a href="https://leetcode.com/peachkosee/" className="home__link" target="{_blank}">
-                        <img src="/leetcode_logo.png" alt="LeetCode" className="home__icon"/>
+                        <img src="./leetcode_logo.png" alt="LeetCode" className="home__icon"/>
                     </a>
                     <a href="https://www.hackerrank.com/kosee_phot?hr_r=1" className="home__link" target="{_blank}">
-                        <img src="/hackerrank_logo.png" alt="HackerRank" className="home__icon"/>
+                        <img src="./hackerrank_logo.png" alt="HackerRank" className="home__icon"/>
                     </a>
                     <a href="https://github.com/PhotKosee" className="home__link" target="{_blank}">
-                        <img src="/github_logo.png" alt="GitHub" className="home__icon"/>
+                        <img src="./github_logo.png" alt="GitHub" className="home__icon"/>
                     </a>
                 </div>
                 
