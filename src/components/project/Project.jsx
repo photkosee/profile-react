@@ -55,7 +55,7 @@ const Projects = [
     },
     {
         id: 4,
-        title: 'Blackout',
+        title: 'Back to Blackout',
         image: './blackout_show.png',
         sub1: 'UNSW project',
         sub2: 'Backend Development | OOP',
@@ -79,10 +79,10 @@ const Projects = [
     },
     {
         id: 6,
-        title: 'Consumer & Producer',
+        title: 'Tributary',
         image: './pro&con_show.png',
         sub1: 'UNSW project',
-        sub2: 'CLI Development',
+        sub2: 'Java API Development',
         tools: [
             './java_logo.png',
             './gitlab_logo.png',
