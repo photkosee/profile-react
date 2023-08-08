@@ -6,11 +6,11 @@ export const Projects = [
         sub1: 'Personal Project',
         sub2: 'Frontend Development',
         tools: [
-            'https://user-images.githubusercontent.com/114990364/258922164-de503512-c3c0-44a3-98b5-423f5eb834b6.png',
-            'https://user-images.githubusercontent.com/114990364/258922115-78a787af-54f0-4eda-b361-e554e793445f.png',
-            'https://user-images.githubusercontent.com/114990364/258921181-6c86beef-f4b9-4326-bff2-47f77a826a9a.png',
-            'https://user-images.githubusercontent.com/114990364/258922212-4dc033ac-0768-44ff-8c56-11c3632f87a5.png',
-            'https://user-images.githubusercontent.com/114990364/258921815-4eaaa4e2-474b-4c1a-8753-231154d257eb.png'
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
         ],
         des: 'https://github.com/PhotKosee/profile-react'
     },
@@ -21,8 +21,8 @@ export const Projects = [
         sub1: 'UNSW project',
         sub2: 'Backend Development',
         tools: [
-            'https://user-images.githubusercontent.com/114990364/258922146-323286ca-11c6-4e41-b3a5-33fee9c028bd.png',
-            'https://user-images.githubusercontent.com/114990364/258922055-01dd905d-0b45-4bfb-bb71-01d7852c392d.png'
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg'
         ],
         des: 'https://github.com/PhotKosee/dungeon-mania',
         live: false
@@ -34,10 +34,10 @@ export const Projects = [
         sub1: 'UNSW project',
         sub2: 'Backend Development',
         tools: [
-            'https://user-images.githubusercontent.com/114990364/258928511-8f4c034c-ae59-4fc4-bb63-952296c0bca4.png',
-            'https://user-images.githubusercontent.com/114990364/258923342-45d06105-790c-4bdf-8844-dc4cacfa01a7.png',
-            'https://user-images.githubusercontent.com/114990364/258922224-4ae03a2c-bb2d-4649-bb05-b8ea257022b4.png',
-            'https://user-images.githubusercontent.com/114990364/258922055-01dd905d-0b45-4bfb-bb71-01d7852c392d.png',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg',
         ],
         des: 'https://github.com/PhotKosee/team',
         live: false
@@ -49,8 +49,8 @@ export const Projects = [
         sub1: 'UNSW project',
         sub2: 'Backend Development',
         tools: [
-            'https://user-images.githubusercontent.com/114990364/258922146-323286ca-11c6-4e41-b3a5-33fee9c028bd.png',
-            'https://user-images.githubusercontent.com/114990364/258922055-01dd905d-0b45-4bfb-bb71-01d7852c392d.png',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg',
         ],
         des: 'https://github.com/PhotKosee/blackout',
         live: false
@@ -62,8 +62,8 @@ export const Projects = [
         sub1: 'UNSW project',
         sub2: 'System calls implementation',
         tools: [
-            'https://user-images.githubusercontent.com/114990364/258919242-1de74de4-f8bf-426c-9829-e9fc9a7aad97.png',
-            'https://user-images.githubusercontent.com/114990364/258922055-01dd905d-0b45-4bfb-bb71-01d7852c392d.png',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg',
         ],
         des: 'https://github.com/PhotKosee/file-management',
         live: false
@@ -75,8 +75,8 @@ export const Projects = [
         sub1: 'UNSW project',
         sub2: 'Java API Development',
         tools: [
-            'https://user-images.githubusercontent.com/114990364/258922146-323286ca-11c6-4e41-b3a5-33fee9c028bd.png',
-            'https://user-images.githubusercontent.com/114990364/258922055-01dd905d-0b45-4bfb-bb71-01d7852c392d.png',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg',
         ],
         des: 'https://github.com/PhotKosee/event',
         live: false
@@ -88,8 +88,8 @@ export const Projects = [
         sub1: 'UNSW project',
         sub2: 'HPT implementation',
         tools: [
-            'https://user-images.githubusercontent.com/114990364/258919242-1de74de4-f8bf-426c-9829-e9fc9a7aad97.png',
-            'https://user-images.githubusercontent.com/114990364/258922055-01dd905d-0b45-4bfb-bb71-01d7852c392d.png',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg',
         ],
         des: 'https://github.com/PhotKosee/vm-fault',
         live: false

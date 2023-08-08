@@ -41,7 +41,7 @@ const Home = () => {
 
                 <div className="home__second">
                     <a href="https://www.linkedin.com/in/phot-kosee/" className="home__link" target="{_blank}">
-                        <img src="https://user-images.githubusercontent.com/114990364/258922191-c6549ad1-4b09-469a-bdf7-43b9a3431098.png" alt="LinkedIn" className="home__icon"/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" className="home__icon"/>
                     </a>
                     <a href="https://leetcode.com/peachkosee/" className="home__link" target="{_blank}">
                         <img src="https://user-images.githubusercontent.com/114990364/258922182-4df6ad89-8af2-4a15-9d59-ce91b506ffcc.png" alt="LeetCode" className="home__icon"/>
@@ -50,7 +50,7 @@ const Home = () => {
                         <img src="https://user-images.githubusercontent.com/114990364/258922080-c1c33823-fd28-4e22-9bb4-938f0d9e498f.png" alt="HackerRank" className="home__icon"/>
                     </a>
                     <a href="https://github.com/PhotKosee" className="home__link" target="{_blank}">
-                        <img src="	https://user-images.githubusercontent.com/114990364/258921815-4eaaa4e2-474b-4c1a-8753-231154d257eb.png" alt="GitHub" className="home__icon"/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="home__icon"/>
                     </a>
                 </div>
                 
