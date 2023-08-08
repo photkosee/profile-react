@@ -2,12 +2,12 @@ import React from "react";
 import "./card.css";
 
 const Card = (props) => {
-    const{ image, title, sub1, sub2, tools, des } = props;
+    const{ image, title, sub1, sub2, tools, des, live, web } = props;
     return (
         <div className="card-wrapper">
             <div className="card">
                 <div className="image-content">
-                    <img src={image} alt="" className="card-img"></img>
+                    <img src={image} alt="demo" className="card-img"></img>
                 </div>
 
                 <div className="card-content">
@@ -17,13 +17,30 @@ const Card = (props) => {
                         tools/version control:<br/>
                         {tools.map((item) => {
                             return (
-                                <img key={item} src={item} alt="" className="card__icon"/>
+                                <img key={item} src={item} alt="stack's logo" className="card__icon"/>
                             )
                         })}  
                     </p>
-                    <a href={des} className="card-btn" target="{_blank}">
-                        More Details
-                    </a>
+                    <div className="btn-wrapper">
+                        {
+                            live && (
+                                <><a href={web} className="card-btn" target="{_blank}">
+                                    Website
+                                </a>
+                                <a href={des} className="card-btn" target="{_blank}">
+                                    Details
+                                </a>
+                                </>
+                            )
+                        }
+                        {
+                            !live && (
+                                <a href={des} className="card-btn" target="{_blank}">
+                                    More Details
+                                </a>
+                            )
+                        }
+                    </div>
                 </div>
             </div>
         </div>

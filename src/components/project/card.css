@@ -9,11 +9,16 @@
     max-width: 250px;
     background-color: var(--container-color);
     padding: 3px;
-} 
+}
 
 .card-wrapper .card-image {
     height: 150px;
     object-position: center;
+}
+
+.card {
+    flex-wrap: wrap;
+    align-self: normal;
 }
 
 .image-content,
@@ -27,11 +32,20 @@
     height: 100%;
     width: 100%;
     border-radius: var(--border-radius);
-    transition: all 0.2s ease;
 }
 
 .card-content {
     margin-top: 0.5rem;
+}
+
+.name {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
 }
 
 .subtitle {
@@ -70,6 +84,12 @@
 
 .card__icon:active {
     transform: translateY(0px);
+}
+
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 .card-btn {

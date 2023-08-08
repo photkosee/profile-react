@@ -6,11 +6,11 @@ const NavBar = () => {
         <header className="header">
             <nav className="nav container" id="navbar">
                 <figure className="nav__logo">
-                    <img src="./logo.png" alt="Logo"/>
+                    <img src="https://user-images.githubusercontent.com/114990364/259049774-4323e11a-1413-4ff7-9d2a-4feba95a8cbc.png" alt="Logo"/>
                 </figure>
                 <div className="nav__menu">
                     <ul className="nav__list grid">
-                        <li className={"nav__item"}>
+                        <li className="nav__item">
                             <a href="#home" className="nav__link">
                                 <i className="bx bxs-home-smile nav__icon"></i>
                                 Home
