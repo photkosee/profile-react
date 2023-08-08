@@ -11,3 +11,5 @@ https://github.com/PhotKosee/profile-react/assets/114990364/a450b9b2-719f-4568-9
 - UseState
 - Swiper JS
 - Deployed via GitHub pages
+
+![profile_show](https://github.com/PhotKosee/profile-react/assets/114990364/5247fc18-4137-46b3-b65d-78fede9b1660)
