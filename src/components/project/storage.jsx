@@ -1,7 +1,7 @@
 export const Projects = [
     {
         id: 1,
-        title: 'Profile Website',
+        title: 'Portfolio Website',
         image: 'https://user-images.githubusercontent.com/114990364/259046932-5247fc18-4137-46b3-b65d-78fede9b1660.png',
         sub1: 'Personal Project',
         sub2: 'Frontend Development',
