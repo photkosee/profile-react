@@ -57,12 +57,6 @@ const Home = () => {
                 <a href="https://drive.google.com/file/d/1vV-dBw1Wr0N64lAOhT5Ex2k_Upkk-zZP/view?usp=sharing" className="btn" target="{_blank}">
                     resume
                 </a>
-
-                <div className="home__down">
-                    <a href="#project">
-                        <i className='bx bxs-chevrons-down bx-fade-up down'></i>
-                    </a>
-                </div>
             </div>
         </section>
     );
