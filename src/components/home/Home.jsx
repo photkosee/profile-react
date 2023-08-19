@@ -37,7 +37,7 @@ const Home = () => {
                     <p className="home__letter">o</p>
                     <p className="home__letter">n</p>
                 </h1>
-                <span>Software Developer</span>
+                <span>Full-Stack Developer</span>
 
                 <div className="home__second">
                     <a href="https://www.linkedin.com/in/phot-kosee/" className="home__link" target="{_blank}">

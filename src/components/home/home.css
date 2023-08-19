@@ -96,6 +96,10 @@ figure:active {
 }
 
 @media screen and (max-width: 520px) {
+    .home__first {
+        margin-bottom: 6rem;
+    }
+
     .home__logo {
         width: 120px;
         height: 120px;
@@ -111,11 +115,15 @@ figure:active {
     }
 
     .home__greet {
-        height: 70px;
+        height: 55px;
     }
 }
 
 @media screen and (max-width: 350px) {
+    .home__first {
+        margin-bottom: 6rem;
+    }
+
     .home__logo {
         width: 75px;
         height: 75px;
@@ -131,6 +139,6 @@ figure:active {
     }
 
     .home__greet {
-        height: 50px;
+        height: 40px;
     }
 }
