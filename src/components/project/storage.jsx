@@ -30,7 +30,7 @@ export const Projects = [
     },
     {
         id: 3,
-        title: 'Comm. Team',
+        title: 'UNSW Treats',
         image: 'https://user-images.githubusercontent.com/114990364/259047674-012e3be8-6f2a-404f-b01e-304a8c10f9ad.png',
         sub1: 'UNSW project',
         sub2: 'Backend Development',
@@ -59,7 +59,7 @@ export const Projects = [
     },
     {
         id: 5,
-        title: 'File System',
+        title: 'System Calls',
         image: 'https://user-images.githubusercontent.com/114990364/254813045-59382449-4186-4d82-a616-3fb00e0f2c4f.png',
         sub1: 'UNSW project',
         sub2: 'System calls implementation',
@@ -86,7 +86,7 @@ export const Projects = [
     },
     {
         id: 7,
-        title: 'VM Fault Handling',
+        title: 'Virtual Memory',
         image: 'https://user-images.githubusercontent.com/114990364/254808883-a7f4bc61-b06f-4874-9928-15d2c1f08531.png',
         sub1: 'UNSW project',
         sub2: 'HPT implementation',
