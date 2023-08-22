@@ -62,7 +62,7 @@ export const Projects = [
         title: 'System Calls',
         image: 'https://user-images.githubusercontent.com/114990364/254813045-59382449-4186-4d82-a616-3fb00e0f2c4f.png',
         sub1: 'UNSW project',
-        sub2: 'System calls implementation',
+        sub2: 'Syscall Implementation',
         tools: [
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg',
@@ -89,7 +89,7 @@ export const Projects = [
         title: 'Virtual Memory',
         image: 'https://user-images.githubusercontent.com/114990364/254808883-a7f4bc61-b06f-4874-9928-15d2c1f08531.png',
         sub1: 'UNSW project',
-        sub2: 'HPT implementation',
+        sub2: 'VM Implementation',
         tools: [
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg',
