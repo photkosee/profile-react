@@ -22,6 +22,7 @@ export const Projects = [
         sub2: 'Backend Development',
         tools: [
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg'
         ],
         des: 'https://github.com/PhotKosee/dungeon-mania',
@@ -50,6 +51,7 @@ export const Projects = [
         sub2: 'Backend Development',
         tools: [
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg',
         ],
         des: 'https://github.com/PhotKosee/blackout',
@@ -76,6 +78,7 @@ export const Projects = [
         sub2: 'Java API Development',
         tools: [
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg',
         ],
         des: 'https://github.com/PhotKosee/event',
