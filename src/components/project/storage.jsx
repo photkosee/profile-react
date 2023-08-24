@@ -35,9 +35,10 @@ export const Projects = [
         sub1: 'UNSW project',
         sub2: 'Backend Development',
         tools: [
-            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg',
         ],
         des: 'https://github.com/PhotKosee/team',
