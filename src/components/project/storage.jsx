@@ -96,5 +96,19 @@ export const Projects = [
         ],
         des: 'https://github.com/PhotKosee/vm-fault',
         live: false
-    }
+    },
+    {
+        id: 8,
+        title: 'DNS Resolver',
+        image: 'https://user-images.githubusercontent.com/114990364/262158296-96923c89-f723-4a10-85c0-0a22cb817524.png',
+        sub1: 'UNSW project',
+        sub2: 'Socket Programing',
+        tools: [
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg',
+        ],
+        des: 'https://github.com/PhotKosee/dns',
+        live: false
+    },
 ];
