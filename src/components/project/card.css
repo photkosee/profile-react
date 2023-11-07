@@ -53,7 +53,7 @@
     font-weight: var(--font-medium);
     position: relative;
     margin-top: 0.3rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.9rem;
     color: rgb(112, 110, 110);
     display: flex;
     align-items: center;
@@ -74,7 +74,7 @@
     height: 30px;
     margin-left: 0.15rem;
     margin-right: 0.15rem;
-    padding-top: 0.2rem;
+    padding-top: 0.1rem;
     transition: all 0.15s ease;
 }
 
@@ -95,14 +95,14 @@
 .card-btn {
     border: none;
     color: white;
-    padding: 7px 14px;
+    padding: 7px 9px;
     background-color: var(--first-color);
     border-radius: 7px;
     margin: 15px;
     cursor: pointer;
     transition: all 0.2s ease;
     font-size: var(--small-font-size);
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .card-btn:hover {
