@@ -18,6 +18,13 @@ const NavBar = () => {
                         </li>
 
                         <li className="nav__item">
+                            <a href="https://photkosee.github.io/blog/" target="{_blank}" className="nav__link">
+                                <i className="bx bxs-book nav__icon"></i>
+                                Blog
+                            </a>
+                        </li>
+
+                        <li className="nav__item">
                             <a href="#project" className="nav__link">
                                 <i className="bx bxs-rocket nav__icon"></i>
                                 Projects

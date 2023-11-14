@@ -3,6 +3,7 @@ import "./card.css";
 
 const Card = (props) => {
     const{ image, title, sub1, sub2, tools, des, live, web } = props;
+
     return (
         <div className="card-wrapper">
             <div className="card">

@@ -1,18 +1,18 @@
 export const Projects = [
-    {
-        id: 1,
-        title: 'Portfolio Website',
-        image: 'https://user-images.githubusercontent.com/114990364/259046932-5247fc18-4137-46b3-b65d-78fede9b1660.png',
-        sub1: 'Personal Project',
+      {
+        id: 9,
+        title: 'Slackr',
+        image: 'https://user-images.githubusercontent.com/114990364/282937821-d9904ee8-82ee-4828-a89c-bee0cec65bdd.png',
+        sub1: 'UNSW Project',
         sub2: 'Frontend Development',
         tools: [
-            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg'
         ],
-        des: 'https://github.com/PhotKosee/profile-react'
+        des: 'https://github.com/photkosee/slackr-vanilla'
     },
     {
         id: 2,
@@ -43,6 +43,21 @@ export const Projects = [
         ],
         des: 'https://github.com/PhotKosee/team',
         live: false
+    },
+    {
+      id: 1,
+      title: 'Portfolio Website',
+      image: 'https://user-images.githubusercontent.com/114990364/259046932-5247fc18-4137-46b3-b65d-78fede9b1660.png',
+      sub1: 'Personal Project',
+      sub2: 'Frontend Development',
+      tools: [
+          'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+          'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+          'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+          'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+          'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
+      ],
+      des: 'https://github.com/PhotKosee/profile-react'
     },
     {
         id: 4,
