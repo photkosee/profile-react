@@ -57,20 +57,33 @@
     padding-right: 0.7rem;
 }
 
-.card__icon {
-    height: 30px;
-    margin-left: 0.15rem;
-    margin-right: 0.15rem;
-    padding-top: 0.1rem;
-    transition: all 0.15s ease;
+.tools-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
 }
 
-.card__icon:hover {
-    transform: translateY(-3.5px);
+.circle-container {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--body-color);
 }
 
-.card__icon:active {
-    transform: translateY(0px);
+.circle-container:hover {
+  transform: translateY(-3.5px);
+}
+
+.circle-container:active {
+  transform: translateY(0px);
+}
+
+.circle-image {
+  height: 19px;
 }
 
 .btn-wrapper {
@@ -109,7 +122,16 @@
       height: 120px;
     }
 
-    .card__icon {
+    .tools-container {
+      gap: 2px;
+    }
+
+    .circle-container {
+      width: 23px;
       height: 23px;
+    }
+
+    .circle-image {
+      height: 15px;
     }
 }

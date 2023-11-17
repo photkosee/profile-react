@@ -16,12 +16,16 @@ const Card = (props) => {
                     <h3 className="subtitle">{sub1} <br/> {sub2}</h3>
                     <p className="tools">
                         tools/version control:<br/>
+                    </p>
+                    <div className="tools-container">
                         {tools.map((item) => {
                             return (
-                                <img key={item} src={item} alt="stack's logo" className="card__icon"/>
+                                <div key={item} className="circle-container">
+                                    <img src={item} alt="stack's logo" className="circle-image"/>
+                                </div>
                             )
                         })}  
-                    </p>
+                    </div>
                     <div className="btn-wrapper">
                         {
                             live && (

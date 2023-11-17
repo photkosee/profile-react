@@ -53,8 +53,18 @@
 }
 
 .home__icon {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
+}
+
+.circle-container-home {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--container-color);
 }
 
 figure {
@@ -109,9 +119,14 @@ figure:active {
         font-size: var(--h2-font-size);
     }
 
+    .circle-container-home {
+      width: 45px;
+      height: 45px;
+    }
+
     .home__icon {
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
 
     .home__greet {
@@ -133,9 +148,14 @@ figure:active {
         font-size: var(--h3-font-size);
     }
 
+    .circle-container-home {
+      width: 37px;
+      height: 37px;
+    }
+
     .home__icon {
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height:20px;
     }
 
     .home__greet {
