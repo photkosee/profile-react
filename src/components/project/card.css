@@ -1,77 +1,77 @@
 .card-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
-    border-radius: var(--border-radius);
-    max-width: 250px;
-    background-color: var(--container-color);
-    padding: 3px;
+  border-radius: var(--border-radius);
+  max-width: 250px;
+  background-color: var(--container-color);
+  padding: 3px;
 }
 
 .image-content .card-img {
-    height: 150px;
-    width: 100%;
-    position: relative;
+  height: 150px;
+  width: 100%;
+  position: relative;
 }
-  
+
 .card-img {
-    border-radius: var(--border-radius);
+  border-radius: var(--border-radius);
 }
 
 .card-content {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .name {
-    position: relative;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
 }
 
 .subtitle {
-    font-size: var(--small-font-size);
-    font-weight: var(--font-medium);
-    position: relative;
-    margin-top: 0.3rem;
-    margin-bottom: 0.9rem;
-    color: rgb(112, 110, 110);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-left: 0.7rem;
-    padding-right: 0.7rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  position: relative;
+  margin-top: 0.3rem;
+  margin-bottom: 0.9rem;
+  color: rgb(112, 110, 110);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
 }
 
 .tools {
-    text-align: center;
-    font-size: var(--small-font-size);
-    padding-left: 0.7rem;
-    padding-right: 0.7rem;
+  text-align: center;
+  font-size: var(--small-font-size);
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
 }
 
 .tools-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
 }
 
 .circle-container {
-    width: 29px;
-    height: 29px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--body-color);
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--body-color);
 }
 
 .circle-container:hover {
@@ -87,51 +87,51 @@
 }
 
 .btn-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content:center;
 }
 
 .card-btn {
-    border: none;
-    color: white;
-    padding: 7px 9px;
-    background-color: var(--first-color);
-    border-radius: 7px;
-    margin: 15px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    font-size: var(--small-font-size);
-    margin-top: 1.5rem;
+  border: none;
+  color: white;
+  padding: 7px 9px;
+  background-color: var(--first-color);
+  border-radius: 7px;
+  margin: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: var(--small-font-size);
+  margin-top: 1.5rem;
 }
 
 .card-btn:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .card-btn:active {
-    transform: scale(0.95);
+  transform: scale(0.95);
 }
 
 @media screen and (max-width: 400px) {
-    .card {
-        max-width: 200px;
-    }
+  .card {
+    max-width: 200px;
+  }
 
-    .image-content .card-img {
-      height: 120px;
-    }
+  .image-content .card-img {
+    height: 120px;
+  }
 
-    .tools-container {
-      gap: 2px;
-    }
+  .tools-container {
+    gap: 2px;
+  }
 
-    .circle-container {
-      width: 23px;
-      height: 23px;
-    }
+  .circle-container {
+    width: 23px;
+    height: 23px;
+  }
 
-    .circle-image {
-      height: 15px;
-    }
+  .circle-image {
+    height: 15px;
+  }
 }
