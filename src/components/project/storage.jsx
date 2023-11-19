@@ -78,7 +78,7 @@ export const Projects = [
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
     ],
-    des: 'https://github.com/PhotKosee/profile-react'
+    des: 'https://github.com/PhotKosee/react-portfolio'
   },
   {
     id: 4,
@@ -112,7 +112,7 @@ export const Projects = [
     title: 'Tributary',
     image: 'https://user-images.githubusercontent.com/114990364/259075720-fc9cb3e8-211a-4b03-b6db-aeedd22ec9d4.png',
     sub1: 'Event-Driven API',
-    sub2: 'Backend Development',
+    sub2: 'API Development',
     tools: [
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg',
