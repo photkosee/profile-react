@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.6e26e107.css",
+    "main.js": "/react-portfolio/static/js/main.aa52496b.js",
+    "static/media/airbrb_cover.png": "/react-portfolio/static/media/airbrb_cover.8dac0d2aae80c3d1d185.png",
+    "static/media/greetings.png": "/react-portfolio/static/media/greetings.28bc7cc1b49e04abd03c.png",
+    "static/media/cypress_logo.svg": "/react-portfolio/static/media/cypress_logo.ea64d0bf49c7ad82a6a2d04b5fcc3324.svg",
+    "index.html": "/react-portfolio/index.html",
+    "static/media/mui_logo.svg": "/react-portfolio/static/media/mui_logo.cbbcf23754a2f6b8e3d48b25e2a71c81.svg",
+    "main.6e26e107.css.map": "/react-portfolio/static/css/main.6e26e107.css.map",
+    "main.aa52496b.js.map": "/react-portfolio/static/js/main.aa52496b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e26e107.css",
+    "static/js/main.aa52496b.js"
+  ]
+}
