@@ -78,7 +78,7 @@ export const Projects = [
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
     ],
-    des: 'https://github.com/PhotKosee/react-portfolio'
+    des: 'https://github.com/PhotKosee/profile-react'
   },
   {
     id: 4,

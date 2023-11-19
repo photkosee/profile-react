@@ -1,7 +1,7 @@
 {
-  "name": "react-portfolio",
+  "name": "profile-react",
   "version": "0.1.0",
-  "homepage": "http://PhotKosee.github.io/react-portfolio",
+  "homepage": "http://PhotKosee.github.io/profile-react",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
