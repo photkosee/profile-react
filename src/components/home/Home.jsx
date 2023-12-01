@@ -38,7 +38,7 @@ const Home = () => {
           <p className="home__letter">o</p>
           <p className="home__letter">n</p>
         </h1>
-        <span>Software Developer</span>
+        <span>*This is my old portfolio. Please link to the new one below*</span>
 
         <div className="home__second">
           <a href="https://www.linkedin.com/in/phot-kosee/" className="home__link" target="{_blank}">
@@ -63,8 +63,8 @@ const Home = () => {
           </a>
         </div>
         
-        <a href="https://drive.google.com/file/d/1WG6orjyASFA57Z-bupVeYjr-wPb22MBM/view?usp=sharing" className="btn" target="{_blank}">
-            resume
+        <a href="https://photkosee.github.io/next-portfolio/" className="btn">
+            Link to my new Portfolio Website
         </a>
       </div>
     </section>
